@@ -1,0 +1,33 @@
+services:
+  # Serviço do PostgreSQL
+  db:
+    image: postgres:13  # Ou você pode usar postgres:alpine, depende da sua necessidade
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: eventcheckin
+    ports:
+      - "5432:5432"
+    networks:
+      - eventcheckin-network
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  # Serviço da API
+  eventcheckin-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5000"
+    depends_on:
+      - db
+    networks:
+      - eventcheckin-network
+
+networks:
+  eventcheckin-network:
+    driver: bridge
+
+volumes:
+  postgres-data:

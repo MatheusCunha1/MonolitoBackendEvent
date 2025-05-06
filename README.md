@@ -66,7 +66,7 @@ dotnet run --project MonolitoBackend.Api
 ### 4. Acesse o Swagger
 
 ```
-http://localhost:5000
+http://localhost:5268
 ```
 
 ---

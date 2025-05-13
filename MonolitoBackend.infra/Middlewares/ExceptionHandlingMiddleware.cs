@@ -20,17 +20,17 @@ namespace MonolitoBackend.Infrastructure.Middlewares
             {
                 await _next(context);
             }
-            catch (UnauthorizedAccessException)
+            catch (UnauthorizedAccessException ex)
             {
-                await HandleExceptionAsync(context, HttpStatusCode.Unauthorized, "Acesso não autorizado");
+                await HandleExceptionAsync(context, HttpStatusCode.Unauthorized, ex.Message ?? "Acesso não autorizado");
             }
-            catch (ValidationException)
+            catch (ValidationException ex)
             {
-                await HandleExceptionAsync(context, HttpStatusCode.BadRequest, "Erro de validação");
+                await HandleExceptionAsync(context, HttpStatusCode.BadRequest, ex.Message ?? "Erro de validação");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                await HandleExceptionAsync(context, HttpStatusCode.InternalServerError, "Erro interno no servidor");
+                await HandleExceptionAsync(context, HttpStatusCode.InternalServerError, ex.Message ?? "Erro interno no servidor");
             }
         }
 

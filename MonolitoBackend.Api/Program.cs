@@ -1,14 +1,14 @@
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
-using MonolitoBackend.Infrastructure.Configurations; // extensão de dependências
-using MonolitoBackend.Infrastructure.Middlewares;   // middleware de exceções
+using MonolitoBackend.Infrastructure.Configurations; 
+using MonolitoBackend.Infrastructure.Middlewares;  
 
 var builder = WebApplication.CreateBuilder(args);
 
 // 1. Registrar serviços e configuração JWT via método de extensão
 builder.Services.AddApplicationServices(builder.Configuration);
 
-// 2. CORS liberado
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -35,7 +35,7 @@ builder.Services.AddSwaggerGen(c =>
         Version = "v1"
     });
 
-    // Autenticação JWT no Swagger
+    
     var jwtSecurityScheme = new OpenApiSecurityScheme
     {
         BearerFormat = "JWT",
@@ -60,7 +60,7 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// 4. Middlewares
+// 2. Middlewares
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
@@ -70,7 +70,7 @@ app.UseSwaggerUI(c =>
 
 app.UseCors();
 
-// Middleware de tratamento de exceções
+
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseAuthentication();

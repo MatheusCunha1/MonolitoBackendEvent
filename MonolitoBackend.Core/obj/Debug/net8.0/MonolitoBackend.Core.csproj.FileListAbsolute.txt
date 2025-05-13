@@ -31,3 +31,4 @@ C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Core\obj\Debu
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Core\obj\Debug\net8.0\refint\MonolitoBackend.Core.dll
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Core\obj\Debug\net8.0\MonolitoBackend.Core.pdb
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Core\obj\Debug\net8.0\ref\MonolitoBackend.Core.dll
+C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Core\obj\Debug\net8.0\MonolitoBackend.Core.sourcelink.json

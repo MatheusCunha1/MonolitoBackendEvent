@@ -1277,7 +1277,7 @@
           "bin/placeholder/MonolitoBackend.Core.dll": {}
         }
       },
-      "MonolitoBackend.Infra/1.0.0": {
+      "MonolitoBackend.infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1292,10 +1292,10 @@
           "System.IdentityModel.Tokens.Jwt": "8.9.0"
         },
         "compile": {
-          "bin/placeholder/MonolitoBackend.Infra.dll": {}
+          "bin/placeholder/MonolitoBackend.infra.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MonolitoBackend.Infra.dll": {}
+          "bin/placeholder/MonolitoBackend.infra.dll": {}
         }
       }
     }
@@ -3831,10 +3831,10 @@
       "path": "../MonolitoBackend.Core/MonolitoBackend.Core.csproj",
       "msbuildProject": "../MonolitoBackend.Core/MonolitoBackend.Core.csproj"
     },
-    "MonolitoBackend.Infra/1.0.0": {
+    "MonolitoBackend.infra/1.0.0": {
       "type": "project",
-      "path": "../MonolitoBackend.Infra/MonolitoBackend.Infra.csproj",
-      "msbuildProject": "../MonolitoBackend.Infra/MonolitoBackend.Infra.csproj"
+      "path": "../MonolitoBackend.infra/MonolitoBackend.infra.csproj",
+      "msbuildProject": "../MonolitoBackend.infra/MonolitoBackend.infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3844,7 +3844,7 @@
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.4",
       "MonolitoBackend.Core >= 1.0.0",
-      "MonolitoBackend.Infra >= 1.0.0",
+      "MonolitoBackend.infra >= 1.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.0",
       "Swashbuckle.AspNetCore >= 8.1.1"
     ]
@@ -3877,8 +3877,8 @@
             "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.Core\\MonolitoBackend.Core.csproj": {
               "projectPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.Core\\MonolitoBackend.Core.csproj"
             },
-            "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.Infra\\MonolitoBackend.Infra.csproj": {
-              "projectPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.Infra\\MonolitoBackend.Infra.csproj"
+            "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.infra\\MonolitoBackend.infra.csproj": {
+              "projectPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.infra\\MonolitoBackend.infra.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1dSr7Pbbco=",
+  "dgSpecHash": "95EKTCzC4rM=",
   "success": true,
-  "projectFilePath": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.Infra\\MonolitoBackend.Infra.csproj",
+  "projectFilePath": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.infra\\MonolitoBackend.infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LowCost\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\LowCost\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

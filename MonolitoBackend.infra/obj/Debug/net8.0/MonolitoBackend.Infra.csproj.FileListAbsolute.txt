@@ -50,3 +50,4 @@ C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.infra\obj\Deb
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.infra\obj\Debug\net8.0\ref\MonolitoBackend.infra.dll
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.infra\obj\Debug\net8.0\MonolitoBackend.infra.sourcelink.json
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.infra\obj\Debug\net8.0\Monolito.C7C3769E.Up2Date
+C:\Matheus\TDS\MonolitoBackendEvent\MonolitoBackend.infra\obj\Debug\net8.0\MonolitoBackend.infra.sourcelink.json

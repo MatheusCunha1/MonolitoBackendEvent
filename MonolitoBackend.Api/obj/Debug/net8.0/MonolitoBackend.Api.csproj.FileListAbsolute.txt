@@ -295,3 +295,4 @@ C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Api\obj\Debug
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Api\obj\Debug\net8.0\MonolitoBackend.Api.genruntimeconfig.cache
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Api\obj\Debug\net8.0\ref\MonolitoBackend.Api.dll
 C:\Matheus\TDS\MonolitoBackendEvent-master\Projeto\MonolitoBackend.Api\obj\Debug\net8.0\MonolitoBackend.Api.sourcelink.json
+C:\Matheus\TDS\MonolitoBackendEvent\MonolitoBackend.Api\obj\Debug\net8.0\MonolitoBackend.Api.sourcelink.json

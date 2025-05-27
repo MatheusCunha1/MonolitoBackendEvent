@@ -3395,11 +3395,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.infra\\MonolitoBackend.infra.csproj",
-      "projectName": "MonolitoBackend.infra",
-      "projectPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.infra\\MonolitoBackend.infra.csproj",
+      "projectUniqueName": "C:\\Matheus\\TDS\\MonolitoBackendEvent\\MonolitoBackend.Infra\\MonolitoBackend.Infra.csproj",
+      "projectName": "MonolitoBackend.Infra",
+      "projectPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent\\MonolitoBackend.Infra\\MonolitoBackend.Infra.csproj",
       "packagesPath": "C:\\Users\\LowCost\\.nuget\\packages\\",
-      "outputPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.infra\\obj\\",
+      "outputPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent\\MonolitoBackend.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LowCost\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3414,8 +3414,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.Core\\MonolitoBackend.Core.csproj": {
-              "projectPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent-master\\Projeto\\MonolitoBackend.Core\\MonolitoBackend.Core.csproj"
+            "C:\\Matheus\\TDS\\MonolitoBackendEvent\\MonolitoBackend.Core\\MonolitoBackend.Core.csproj": {
+              "projectPath": "C:\\Matheus\\TDS\\MonolitoBackendEvent\\MonolitoBackend.Core\\MonolitoBackend.Core.csproj"
             }
           }
         }

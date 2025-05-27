@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -18,13 +19,29 @@ namespace MonolitoBackend.infra.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Titulo = table.Column<string>(type: "text", nullable: true),
-                    Localizacao = table.Column<string>(type: "text", nullable: true),
-                    Data = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    Titulo = table.Column<string>(type: "text", nullable: false),
+                    Localizacao = table.Column<string>(type: "text", nullable: false),
+                    Data = table.Column<DateTime>(type: "date", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Eventos", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    UserName = table.Column<string>(type: "text", nullable: false),
+                    Email = table.Column<string>(type: "text", nullable: false),
+                    Password = table.Column<string>(type: "text", nullable: false),
+                    Roles = table.Column<List<string>>(type: "text[]", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -59,6 +76,9 @@ namespace MonolitoBackend.infra.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Participantes");
+
+            migrationBuilder.DropTable(
+                name: "Users");
 
             migrationBuilder.DropTable(
                 name: "Eventos");

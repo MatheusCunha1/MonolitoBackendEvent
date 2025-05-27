@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6a00f4, #00f2ff); /* roxo + azul água mais suaves */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background: white;
+  padding: 2.8rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 330px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6a00f4;
+  margin-bottom: 0.2rem;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 1.7rem;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6a00f4;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  background: #00c6ff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #009edb;
+  transform: translateY(-1px);
+}
